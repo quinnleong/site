@@ -1,72 +1,33 @@
 ---
-const stats = [
-  {
-    name: 'Years',
-    value: '9',
-  },
-  {
-    name: 'Experts',
-    value: '15',
-  },
-  {
-    name: 'Projects',
-    value: '122',
-  },
-  {
-    name: 'Awards',
-    value: "'9'",
-  },
-];
 ---
 
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="grid gap-16 lg:grid-cols-2 lg:gap-24">
       <img
-        class="mx-auto h-auto w-full max-w-xl rounded-3xl"
-        width="576"
-        height="864"
-        src="/assets/about.webp"
-        alt="Our experts working together"
+        class="mx-auto h-auto w-full max-w-l rounded-3xl"
+        src="/assets/eg.webp"
+        alt=""
       />
       <div class="flex flex-col gap-10">
         <!-- Mission description -->
         <div class="space-y-8 sm:space-y-12">
-          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our mission</h2>
+          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">About the work</h2>
           <div class="space-y-6">
             <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed
-              consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
-              Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames
-              senectus vitae.
+              Integrating Grief is grounded in the belief that grief is something to be understood, carried with support and care, and integrated across the lifespan. My work sits at the intersection of education, research, and public engagement, where evidence-informed scholarship meets lived experience. Through teaching, speaking, and community-engaged research, I create spaces that deepen grief literacy, challenge dominant narratives about loss, highlight the social, cultural, and structural contexts that shape the grieving experience and help us to build coping skills, integrating grief.
             </p>
             <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem
-              nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet
-              quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis
-              elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat
-              donec laoreet quam urna.
+              By bringing research into conversation with education and practice, this work supports individuals, professionals, and communities in developing more compassionate, informed, and sustainable ways of responding to grief—in personal lives, professional roles, and collective spaces.
             </p>
+          </div>
+          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">About me</h2>
+          <div class="space-y-6">
             <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies.
-              Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum
-              consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-              fermentum lacus in. Viverra.
+              Dr. Erica G. Srinivasan is an Associate Professor of Psychology at the University of Wisconsin—La Crosse (UWL), where she also serves as the Director for the Center for Grief and Death Education, and is Co-Chair for the Gerontology Certificate. Additionally, she offers grief programming for The University of Wisconsin-Madison Continuing Education, including their popular Grief Support Specialist Certificate Program,  She also offers a Dementia Support Specialist Badge for UWL continuing education. In addition to teaching, she conducts research on grief and loss, medical-aid-in-dying, dementia, and death education and is engaged with community education and speaking. Dr. Srinivasan has a passion for normalizing conversations about aging, death and grief, which serves as a foundation for all of her professional work.  
             </p>
           </div>
         </div>
-
-        <!-- Stats -->
-        <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {
-            stats.map((stat) => (
-              <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
-                <dt class="text-base">{stat.name}</dt>
-                <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
-              </div>
-            ))
-          }
-        </dl>
       </div>
     </div>
   </div>

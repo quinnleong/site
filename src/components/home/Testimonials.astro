@@ -1,25 +1,18 @@
 ---
 const testimonials = [
   {
-    name: 'Rebecca Hayes',
-    description: 'Designer',
-    image: '/assets/testimonial-1.webp',
+    name: 'Ben Harris',
+    description: 'COO, Everly',
+    image: '/assets/icon.svg',
     message:
-      '“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”',
+      `"Erica's expertise, creativity, and dedication significantly enhanced the quality of our research. I wholeheartedly recommend her for any future endeavors, confident in her ability to excel and inspire in her field."`,
   },
   {
-    name: 'Rosa Spencer',
-    description: 'Team Leader',
-    image: '/assets/testimonial-2.webp',
+    name: 'Emma B.',
+    description: 'UW Madion, Grief Support Specialist Certificate',
+    image: '/assets/icon.svg',
     message:
-      '“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”',
-  },
-  {
-    name: 'Christina Upton',
-    description: 'Manager',
-    image: '/assets/testimonial-3.webp',
-    message:
-      '“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”',
+      `"Her course was extremely enriching for me, both professionally and personally. Since completing the certification, I've been able to apply the skills and knowledge I gained in her course to my work as an End-of-Life Doula in supporting the dying and their families. Grief and loss are both understudied, and I feel very lucky to have found a program and a teacher who is not only an expert in the field, but also a kind and personable teacher."`,
   },
 ];
 ---
@@ -28,10 +21,10 @@ const testimonials = [
   <div class="v mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col items-center gap-12 lg:gap-20">
       <h2 class="mx-auto max-w-xl text-center text-3xl font-medium tracking-tight sm:text-4xl">
-        Trusted by the largest companies in the world
+        Testimonials
       </h2>
       <div
-        class="divide-primary-900/10 dark:divide-primary-300/10 grid divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0"
+        class="divide-primary-600/10 dark:divide-primary-200/10 grid divide-y lg:grid-cols-2 lg:divide-x lg:divide-y-0"
       >
         {
           testimonials.map((testimonial) => (
