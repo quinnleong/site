@@ -8,4 +8,6 @@ export default defineConfig({
     viewTransitions: true,
   },
   integrations: [tailwind(), compress()],
+  site: 'https://quinnleong.github.io',
+  base: 'site',
 });
