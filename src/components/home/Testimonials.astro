@@ -9,7 +9,7 @@ const testimonials = [
   },
   {
     name: 'Emma B.',
-    description: 'UW Madion, Grief Support Specialist Certificate',
+    description: 'UW Madison, Grief Support Specialist Certificate',
     image: '/assets/icon.svg',
     message:
       `"Her course was extremely enriching for me, both professionally and personally. Since completing the certification, I've been able to apply the skills and knowledge I gained in her course to my work as an End-of-Life Doula in supporting the dying and their families. Grief and loss are both understudied, and I feel very lucky to have found a program and a teacher who is not only an expert in the field, but also a kind and personable teacher."`,
@@ -46,7 +46,7 @@ const testimonials = [
                 <p>{testimonial.message}</p>
               </blockquote>
               <figcaption class="flex flex-col gap-4">
-                <img class="mx-auto h-8 w-8 rounded-full" src={testimonial.image} alt="" />
+                <img class="mx-auto h-8 w-8 rounded-full" src={import.meta.env.BASE_URL + testimonial.image} alt="" />
                 <div class="text-center">
                   <div class="text-base font-medium">{testimonial.name}</div>
                   <div class="text-primary-950/70 dark:text-primary-200/70 text-sm">

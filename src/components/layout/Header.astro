@@ -3,17 +3,17 @@ const links = [
   {
     ref: '01',
     name: 'Home',
-    href: '/',
+    href: '',
   },
   {
     ref: '02',
     name: 'About',
-    href: '/about',
+    href: 'about',
   },
   {
     ref: '03',
     name: 'Contact',
-    href: '/contact',
+    href: 'contact',
   },
 ];
 ---
@@ -29,7 +29,7 @@ const links = [
     <!-- Brand logo -->
     <div class="flex">
       <a
-        href="/"
+        href={import.meta.env.BASE_URL}
         class="focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 rounded-md focus-visible:outline focus-visible:outline-2"
       >
         <span class="sr-only">Integrating Grief</span>
@@ -37,7 +37,7 @@ const links = [
           class="h-9 w-auto"
           width="140"
           height="100"
-          :src="'/assets/icon.svg'"
+          src={import.meta.env.BASE_URL + "assets/icon.svg"}
           alt="Integrating Grief"
         />
       </a>
@@ -50,7 +50,7 @@ const links = [
         {
           links.map((link) => (
             <a
-              href={link.href}
+              href={import.meta.env.BASE_URL + link.href}
               class="text-primary-950 dark:text-primary-200 group inline-flex py-6 text-sm font-sm tracking-tight transition focus-visible:outline-none sm:py-8 sm:text-1xl"
             >
               <div class="group-focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 flex flex-1 items-center justify-between rounded-3xl group-focus-visible:outline group-focus-visible:outline-2 group-focus-visible:outline-offset-2">
